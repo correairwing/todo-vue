@@ -7,20 +7,7 @@ import ListaDeTarefas from './components/ListaDeTarefas.vue';
   const estado = reactive({
     filtro: 'todas',
     tarefaTemp: '',
-    tarefas: [
-      {
-        titulo: 'estudar',
-        finalizada: false,
-      },
-      {
-        titulo: 'estudar JS',
-        finalizada: false,
-      },
-      {
-        titulo: 'ir para a academia',
-      finalizada: true,
-      }
-    ]
+    tarefas: []
   })
 
   const getTarefasPendentes = () => {
